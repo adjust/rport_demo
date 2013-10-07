@@ -7,8 +7,8 @@ add a project by doing:
 
     rport.project.new('my_new_project')
 
-See the [demo Rport app][demo_app] or [Rport's documentation][rport] for more
+See the [original blog post][blog_post] or [Rport's documentation][rport] for more
 information.
 
 [blog_post]: http://big-elephants.com/rport-the-r-package-for-sql-databases "Introducing Rport"
-[source_code]: http://github.com/adeven/rport "Rport Source Code"
+[rport]: http://github.com/adeven/rport "Rport Source Code"
