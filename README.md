@@ -10,5 +10,5 @@ add a project by doing:
 See the [original blog post][blog_post] or [Rport's documentation][rport] for more
 information.
 
-[blog_post]: http://big-elephants.com/rport-the-r-package-for-sql-databases "Introducing Rport"
 [rport]: http://github.com/adeven/rport "Rport Source Code"
+[blog_post]: http://big-elephants.com/2013-10/rport-business-intelligence-apps-with-r/ "Rport Blog Post"
