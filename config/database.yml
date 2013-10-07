@@ -1,0 +1,74 @@
+# Contains Database connection settings for all connections and environments
+# that your Rport app will work on.
+#
+# Note: Please do not use the & yaml syntax as the R YAML driver doesnt work
+# well with it.
+#
+# Note: adapter setting is case sensitive. It should match the driver name you'd
+# normally use in dbConnect(). Example: PostgreSQL
+#
+# Other than that, feel free to edit these settings, add/remove environments and
+# connections. For more details refer to the Rport readme.
+
+development:
+  read:
+    adapter: PostgreSQL
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: my_user
+    password: ''
+    host: localhost
+
+  write:
+    adapter: ''
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: ''
+    password: ''
+    host: localhost
+
+staging:
+  read:
+    adapter: ''
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: ''
+    password: ''
+    host: localhost
+
+  write:
+    adapter: ''
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: ''
+    password: ''
+    host: localhost
+
+production:
+  read:
+    adapter: ''
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: ''
+    password: ''
+    host: localhost
+
+  write:
+    adapter: ''
+    rdriver: RPostgreSQL
+    database: my_database
+    encoding: ''
+    pool: ''
+    username: ''
+    password: ''
+    host: localhost
